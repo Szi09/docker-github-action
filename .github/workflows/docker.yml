@@ -18,6 +18,6 @@ jobs:
       - name: Build and push Docker images
         uses: docker/build-push-action@v4
         with:
-          context: foosball/
+          context: Foosball/
           push: true
-          tags: siqbal3/foosball:${{github.run_number}}
+          tags: siqbal3/Foosball:${{github.run_number}}
