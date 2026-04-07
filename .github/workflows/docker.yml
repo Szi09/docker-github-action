@@ -24,4 +24,4 @@ jobs:
         with:
           context: Foosball/
           push: true
-          tags: siqbal3/Foosball:${{github.run_number}}
+          tags: siqbal3/foosball:${{github.run_number}}
